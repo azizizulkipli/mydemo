@@ -52,6 +52,6 @@ else
 
 $conn->close();
 sleep(2);
-header("location:tryagain.html");
+header("location:https://foxapp-dum.netlify.app/tryagain.html");
 ob_end_flush();
 ?>

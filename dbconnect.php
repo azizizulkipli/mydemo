@@ -1,12 +1,19 @@
 <?php
 session_start();
 ob_start();
-$host="localhost";
-$username="root";
-$password="";
+//$host="localhost";
+//$username="root";
+//$password="";
 //$password="!@db101#$";
-$db_name="rogue_AP";
-$tbl_name="gugel";
+//$db_name="rogue_AP";
+//$tbl_name="gugel";
+
+$host="sql12.freesqldatabase.com";
+$username= "sql12377508";
+$password="Plu9U2PijP";
+//$password="!@db101#$";
+$db_name="sql12377508";
+$tbl_name="foxdum";
 
 	#mysql_connect("$host", "$username") or die("couldn't connect");
 	#mysql_select_db("$db_name");
